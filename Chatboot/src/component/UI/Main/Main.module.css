@@ -1,0 +1,75 @@
+.Main{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    border: 1rem solid #aaa;
+    border-radius: 2%;
+    background-color: #eee;
+    padding: 1%;
+}
+.Setting{
+    width: 20%;
+    border-right: 1rem solid #aaa;
+    font-size: 12rem;
+}
+.Chat{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    padding: 1%;
+}
+.Message{
+    max-height: 80%;
+    overflow: auto;
+    height: 80%;
+    border: 1rem solid #aaa;
+    padding: 1%;
+    font-size: 6rem;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+.Ava{
+    margin: 1%;
+}
+.ContentTxt_Left, .ContentTxt_Right{
+    display: flex;
+}
+.ContentTxt_Right{
+    margin-left: 50%;
+    flex-direction: row-reverse;
+}
+.Popover_Left,.Popover_Right{
+    display: flex;
+    max-width: 50%;
+    padding: 3rem;
+    margin-top: 0;
+    background-color: #fff;
+    color: black;
+    font-size: 6rem;
+    border-radius: 2rem;
+}
+.Popover_Right{
+    background-color: greenyellow;
+    max-width: 90%;
+}
+/*.Popover_Right::after,.Popover_Left:before{
+    content: '1';
+    color:transparent;
+    height: 7rem;
+    width: 7rem;
+    rotate: 90deg;
+    background-color: red;
+}*/
+.Warn{
+    color: #aaa;
+    text-align: center;
+    margin: 50rem auto;
+}
+.TextArea{
+    height: 90%;
+}
